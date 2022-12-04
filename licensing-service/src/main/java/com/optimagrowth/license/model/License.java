@@ -2,10 +2,11 @@ package com.optimagrowth.license.model;
 
 import lombok.Data;
 import lombok.ToString;
+import org.springframework.hateoas.RepresentationModel;
 
 @Data
 @ToString
-public class License {
+public class License extends RepresentationModel<License> {
 
     private Integer id;
     private String licenseId;
