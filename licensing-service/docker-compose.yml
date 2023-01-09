@@ -10,7 +10,7 @@ services:
     networks:
       backend:
         aliases:
-           - "licenseservice" a
+           - "licenseservice" a  b
 networks:
   backend:
     driver: bridge
